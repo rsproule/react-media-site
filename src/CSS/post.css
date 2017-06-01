@@ -1,0 +1,193 @@
+.post-container{
+	margin-top: 25px;
+	margin: 0 auto;
+	width: 92%;
+	height: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 15px;
+	background-color: #f1f1f1;
+	overflow: hidden;
+	display: inline-block;
+}
+
+
+.post-info-container{
+	/*border: 1px solid black;*/
+	height: auto;
+	overflow-y: hidden;
+}
+
+/*Containers for the 3 parts of the post*/
+
+.user-info-container{
+	/*border: 1px solid black;*/
+	width: 24%;
+	height: auto;
+	float: right;
+	text-align: left;
+
+}
+.post-left-container{
+	float: left;
+	width: 18%;
+	height: auto;
+	/*border: 1px solid black;*/
+
+}
+.post-center-container{
+	margin-left: 20%;
+	width: 54%;
+	/*border: 1px solid black;*/
+	height: auto;
+	text-align: left;
+}
+
+
+
+/*User info stuff*/
+.profile-picture{
+  	width: 39%;
+  	float: left;
+  	/*border: 1px solid black;*/
+
+}
+.name-label{
+	/*border: 1px solid black;*/
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 56%;
+	float: left;
+	font-size: 1.6vw;
+	text-decoration: none;
+}
+
+.username-label{
+	/*border: 1px solid black;*/
+	float: left;
+	font-size: 1.4vw;
+	text-decoration: none;
+	color: #61c3ce;
+
+}
+
+.username-label:hover{
+	opacity: .8;
+	text-decoration: underline;
+}
+
+.username-label:active{
+	color: #468e96;
+}
+
+/*Center container stuff ie title and description*/
+
+
+.post-title{
+	height: auto;	
+	font-size: 12pt;
+    font-size: 2.7vw;
+	text-decoration: none;
+	cursor: pointer;
+	/*border: 1px solid black;*/
+	color: #61c3ce;
+}
+
+.post-description{
+	/*text-align: left;*/
+	/*height: auto;*/
+	text-indent: 6%;
+	white-space: pre-wrap;
+	font-size: 1.2vw;
+	/*border: 1px solid black;*/
+	/*overflow-y: scroll;*/
+}
+
+.description-container{
+	margin-top: 15px;
+}
+
+.description-header{
+	font-size: 1.6vw;
+}
+
+.post-title:hover{
+	opacity: .8;
+	text-decoration: underline;
+}
+.post-title:active{
+	color: #468e96;
+}
+
+
+
+/* Left side container stuff like play button and thumbnail*/
+
+.thumbnail{
+	height: auto;
+	max-width: 100%;
+	float: left;
+}
+
+.thumbnail:hover{
+	opacity: .8;
+}
+
+.thumbnail:active{
+	background: #61c3ce;
+	border-radius: 15px;
+}
+
+
+
+/* Media stuff here */
+
+.media-container{
+	margin-top: 25px;
+	width: 100%;
+	/*border: 1px solid black;*/
+
+}
+
+.button-container{
+	float: left;
+	width: 18%;
+	height: 25px;
+	padding: 1px;
+}
+.toggle-button{
+	width: 100%;
+	height: 25px;
+	background-color: #61c3ce;
+	font-size: 1.45vw;
+	cursor: pointer;
+	color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-style: none;
+	
+}
+
+.post-content{
+	margin-top: 25px;
+	width: 60%;
+	float: left;
+  	/*border: 1px solid black;*/
+}
+
+
+
+.toggle-button:hover{
+	opacity: .8;
+}
+.toggle-button:active{
+	background-color: #468e96;
+}
+
+
+
+
+
+
+
+
+

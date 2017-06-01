@@ -1,0 +1,64 @@
+.login-super-container{
+    text-align: center;
+    margin-top: 5%;
+}
+.login-container{
+	/*margin: 0 auto;*/
+	width: 80%;
+	height: auto;
+    display: inline-block;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 15px;
+    text-align: center;
+}
+.App-logo{
+    display: block;
+    margin: 0 auto;
+    height: 80px;
+}
+
+.user-pass-container{
+    text-align: center;
+    width: 100%;
+    margin-top: 7%;
+}
+
+.login-input{
+	width: 60%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16pt;
+    margin-top: 10px;
+}
+
+#login-button{
+	background-color: #61c3ce;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 60%;
+    font-size: 18pt;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#login-button:hover{
+	opacity: .8;
+}
+
+#login-button:active{
+    background-color: #468e96;
+}
+
+#login-button:focus{
+    outline: none;
+}
+
+.new-account{
+    /*margin-top: 10px;*/
+	padding-top: 16px;
+
+}

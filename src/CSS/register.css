@@ -1,0 +1,96 @@
+.register-super-container{
+    margin-top: 5%;
+}
+
+.register-container{
+    margin-top: 10%;
+	margin: 0 auto;
+	width: 90%;
+	height: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 15px;
+}
+
+.break{
+    /*margin-bottom: 10px;*/
+    margin: 8px 0;
+}
+
+.App-logo{
+	display: block;
+	margin: 0 auto;
+}
+
+#first-name{
+	width: 48.5%;
+    padding: 12px 20px;
+    float: left;
+    margin: 0 auto;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16pt;
+}
+#last-name{
+	width: 48.5%;
+    padding: 12px 20px;
+    float: right;
+    /*margin: 0 auto;*/
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16pt;
+}
+
+.username-reg{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16pt;
+}
+
+.password{
+    /*margin-top: 4px;*/
+    /*margin-bottom: 4px;*/
+    margin: 8px 0;
+    width: 100%;
+    padding: 12px 20px;
+    float: left;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16pt;
+}
+
+#register-button{
+	background-color: #61c3ce;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18pt;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#register-button:hover{
+	opacity: .8;
+}
+
+#register-button:active{
+    background-color: #468e96;
+}
+#register-button:focus{
+    outline: none;
+}
+
+.login{
+    margin: 8px 0;
+	padding-top: 16px;
+	float: right;
+
+}

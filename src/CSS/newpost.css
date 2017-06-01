@@ -1,0 +1,259 @@
+.new-post-container{
+	width: 75%;
+	margin: 0 auto;	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: #f1f1f1;
+}
+
+/* Style the tabs */
+
+.tab-container {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    width: 100%;
+    /*border: 1px solid black;*/
+}
+
+
+.tab {
+	background: #61c3ce;
+    color: #f1f1f1;
+    float: left;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    width: 12%;
+    border-top-right-radius: 1.75em;
+    border-top-left-radius: 1em;
+    font-size: 1.4vw;
+    margin-right: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tab:hover{
+    opacity: .8;
+}
+
+.tab:active{
+    background-color: #468e96;
+}
+
+.tab:focus{
+    outline: none;
+}
+
+
+.close-tab{
+    background: #b24545;
+    color: #f1f1f1;
+    float: right;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    width: 12%;
+    border-top-left-radius: 1.75em;
+    border-top-right-radius: 1em;
+    font-size: 1.4vw;
+    margin-right: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.selected-tab{
+
+    background: inherit;
+    color: #61c3ce;
+    border-right: #8a8c8c;
+    float: left;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    width: 12%;
+    border-top-right-radius: 1.75em;
+    border-top-left-radius: 1em;
+    font-size: 1.4vw;
+    margin-right: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+}
+
+.selected-tab:focus{
+    outline: none;
+}
+
+.close-tab:hover{
+    opacity: .8;
+}
+
+.close-tab:active{
+    background-color: #7f3535;
+}
+
+.close-tab:focus{
+    outline: none;
+}
+
+
+
+/* Left Side: */
+
+
+.left-side-container{
+    width: 48%;
+    height: 100px;
+    float: left;
+    /*border: 1px solid black;*/
+    margin-top: 10px;
+    margin-left: 1%;
+    /*margin-right: 10%;*/
+    padding-top: 10px;
+}
+
+
+
+.title-input{
+	width: 100%;
+    padding: 12px 20px;
+    float: left;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 1.24vw;
+}
+
+
+/* Right Side: */
+
+.right-side-container{
+    width: 48%;
+    height: 100px;
+    float: right;
+    /*border: 1px solid black;*/
+    margin-top: 10px;
+    margin-right: 1%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.file-label{
+    width: 80%;
+    font-size: 2vw;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #f1f1f1;
+    background-color: #61c3ce;
+    display: inline-block;  
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.file-label:hover{
+    opacity: .8;
+}
+.file-label:active{
+    background-color: #468e96;
+}
+
+.file{
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+    /*display: none;*/
+}
+
+.hide-file-label{
+    display: none;
+}
+.done-uploaded{
+    width: 80%;
+    font-size: 2vw;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    color: #f1f1f1;
+    background-color: #61c3ce;
+    display: inline-block;  
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.remove-file{
+    width: 30%;
+    color: white;
+    padding-left: 8px;
+    font-size: 1.5vw;
+    padding-right: 8px; 
+    border-radius: 10px;
+    background-color: #b24545;
+}
+
+.remove-file:hover{
+    opacity: .8;
+}
+
+.remove-file:active{
+    background-color: #c5eaea;
+}
+
+.remove-file:focus{
+    outline: none;
+}
+
+
+
+/* Bottom Stuff*/
+
+.bottom-container{
+    width: 98%;
+    /*border: 1px solid black;*/
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+
+.description-input{
+	width: 100%;
+    padding-left: 2%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 1.24vw;
+    word-wrap: break-word;
+
+}
+
+.form-button{
+	background-color: #61c3ce;
+    color: white;
+    padding: 14px 20px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    width: 60%;
+    font-size: 1.8vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form-button:hover{
+	opacity: .8;
+}
+
+.form-button:active{
+    background-color: #468e96;
+}
+
+.form-button:focus{
+    outline: none;
+}
+
+
+
+

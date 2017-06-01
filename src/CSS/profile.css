@@ -1,0 +1,21 @@
+.profile-page-container{
+	width: 100%;
+	text-align: center;
+}
+
+.profile-feed-container{
+	width: 73%;
+	float: right;
+	display: inline-block;
+	border: 1px solid black;
+	
+
+}
+
+.user-sideinfo-container{
+	width: 23%;
+	float: left;
+	border: 1px solid black;
+	padding: 1%;
+	margin-left: .5%;
+}
